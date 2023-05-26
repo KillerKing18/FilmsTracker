@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">FilmsTracker</string>
+
+    <!-- MainActivity -->
+    <string name="welcome">Bienvenid@ a Movies Tracker!</string>
+        <!-- Buttons -->
+    <string name="goToAddMovieButtonText">Añadir película</string>
+    <string name="checkMoviesButtonText">Listado</string>
+    <string name="deleteAllMoviesText">Borrar todas las películas</string>
+        <!-- Dialogs -->
+    <string name="deleteAllMoviesQuestionText">¿Estás segur@ de que quieres borrar todas las películas?</string>
+    <string name="exitAppTitleText">Salir de Movies Tracker</string>
+    <string name="exitAppQuestionText">¿Estás segur@ de que quieres salir de Movies Tracker?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+        <!-- Toast -->
+    <string name="allMoviesDeletedToast">Todas las películas han sido borradas satisfactoriamente</string>
+
+    <!-- SearchMovieActivity -->
+    <string name="searchMovieTitle">Buscar Película</string>
+    <string name="title">Título</string>
+    <string name="year">Año</string>
+        <!-- Buttons -->
+    <string name="searchButtonText">Buscar</string>
+        <!-- Toast -->
+    <string name="titleIsEmptyToast">Tienes que introducir un título para buscar</string>
+    <string name="wrongYearToast">Tienes que introducir un año entre el 1800 y el actual</string>
+
+    <!-- MovieActivity -->
+    <string name="movieNotFoundErrorText">No se ha encontrado ninguna película</string>
+    <string name="errorOnCallText">Error en la llamada al proveedor de datos, prueba más tarde</string>
+    <string name="actorsTitle">Actores:</string>
+    <string name="directorTitle">Director:</string>
+    <string name="cityTitle">Ciudad:</string>
+    <string name="city">Ciudad</string>
+    <string name="viewingDateTitle">Visionado:</string>
+    <string name="viewingDate">Fecha</string>
+        <!-- Buttons -->
+    <string name="addMovieButtonText">Añadir</string>
+    <string name="searchAgainButtonText">Buscar de nuevo</string>
+    <string name="updateMovieButtonText">Actualizar</string>
+    <string name="deleteMovieButtonText">Borrar</string>
+    <string name="goToListingButtonText">Ir al listado</string>
+        <!-- Toast -->
+    <string name="dateOrCityAreEmptyToast">Tienes que introducir una ciudad y una fecha de visionado</string>
+    <string name="movieAlreadyExistsToast">Esta película ya existe, puedes editarla en el listado de películas</string>
+    <string name="movieAddedToast">Película añadida satisfactoriamente</string>
+    <string name="movieUpdatedToast">Película actualizada satisfactoriamente</string>
+    <string name="movieDeletedToast">Película borrada satisfactoriamente</string>
+        <!-- Dialogs -->
+    <string name="deleteMovieText">Borrar película</string>
+    <string name="deleteMovieQuestionText">¿Estás segur@ de que quieres borrar esta película?</string>
+
+    <!-- ListActivity -->
+    <string name="emptyList">No hay ninguna película</string>
+
+</resources>

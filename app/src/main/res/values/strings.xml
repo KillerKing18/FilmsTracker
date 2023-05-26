@@ -1,3 +1,57 @@
 <resources>
     <string name="app_name">FilmsTracker</string>
+
+    <!-- MainActivity -->
+    <string name="welcome">Welcome to Movies Tracker!</string>
+        <!-- Buttons -->
+    <string name="goToAddMovieButtonText">Add movie</string>
+    <string name="checkMoviesButtonText">Check movies</string>
+    <string name="deleteAllMoviesText">Delete all movies</string>
+        <!-- Dialogs -->
+    <string name="deleteAllMoviesQuestionText">Are you sure you want to delete all movies?</string>
+    <string name="exitAppTitleText">Exit Movies Tracker</string>
+    <string name="exitAppQuestionText">Are you sure you want to exit from Movies Tracker?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+        <!-- Toast -->
+    <string name="allMoviesDeletedToast">All movies deleted successfully</string>
+
+    <!-- SearchMovieActivity -->
+    <string name="searchMovieTitle">Search Movie</string>
+    <string name="title">Title</string>
+    <string name="year">Year</string>
+        <!-- Buttons -->
+    <string name="searchButtonText">Search</string>
+        <!-- Toast -->
+    <string name="titleIsEmptyToast">You must enter a title to search</string>
+    <string name="wrongYearToast">You must enter a year between 1800 and the current date</string>
+
+    <!-- MovieActivity -->
+    <string name="movieNotFoundErrorText">No movie was found</string>
+    <string name="errorOnCallText">Error on call to data provider, try again later</string>
+    <string name="actorsTitle">Actors:</string>
+    <string name="directorTitle">Director:</string>
+    <string name="cityTitle">City:</string>
+    <string name="city">City</string>
+    <string name="viewingDateTitle">Viewing date:</string>
+    <string name="viewingDate">Viewing date</string>
+        <!-- Buttons -->
+    <string name="addMovieButtonText">Add movie</string>
+    <string name="searchAgainButtonText">Search again</string>
+    <string name="updateMovieButtonText">Update</string>
+    <string name="deleteMovieButtonText">Delete</string>
+    <string name="goToListingButtonText">Go to listing</string>
+        <!-- Toast -->
+    <string name="dateOrCityAreEmptyToast">You must enter a city and a viewing date to add the movie</string>
+    <string name="movieAlreadyExistsToast">This movie already exists, change it in the "Check movies" menu</string>
+    <string name="movieAddedToast">Movie added successfully</string>
+    <string name="movieUpdatedToast">Movie updated successfully</string>
+    <string name="movieDeletedToast">Movie deleted successfully</string>
+        <!-- Dialogs -->
+    <string name="deleteMovieText">Delete movie</string>
+    <string name="deleteMovieQuestionText">Are you sure you want to delete this movie?</string>
+
+    <!-- ListActivity -->
+    <string name="emptyList">There are no movies</string>
+
 </resources>
